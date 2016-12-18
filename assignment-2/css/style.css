@@ -1,39 +1,58 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  margin: 5px;
+  padding: 0;
+  background-color: #F5F5F5;
 }
 h1 {
   margin-bottom: 15px;
   font-family: Helvetica;
 }
 
-p {
-  border: 1px solid black;
+div {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
+  font-size: 20px;
+  font: bold;
 }
 
-#p1 {
-  position: relative;
+.animal_name {
+  float: right;
+  padding: 5px;
+  border: 1px solid black;
+
+}
+  
+.animal_stuff {
+  clear: right;
+  padding: 5px;
+  background-color: #FFFAF0;
+}
+
+.animal_entry {
+  margin: 1px;
+  background-color: #FFFAF0;
+}
+
+#giant_panda {
+  background-color: #000000;
+  color: #FFFFF0;
+  text-align: center
+}
+
+#red_panda {
+
   background-color: #A52A2A;
-  width: 200px;
-  height: 200px;
+  color: #DEB887;
+  text-align: center
 }
 
-#p2 {
-  position: relative;
-  background-color: #DEB887;
-  width: 200px;
-  height: 200px;
-}
-
-#p3 {
-  position: relative;
-  background-color: #0000FF;
-  width: 200px;
-  height: 200px;
+#raccoon {
+  background-color: #696969;
+  color: #A9A9A9;
+  text-align: center
 }
 
 /* Simple Responsive Framework. */
@@ -54,13 +73,17 @@ p {
 
 /********** Tablet view **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6 {
+  .col-md-6, .col-md-12 {
     float: left;
     border: 1px solid black;
   }
   
   .col-md-6 {
     width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;
   }
 }
 
