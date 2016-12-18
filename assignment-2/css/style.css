@@ -4,16 +4,15 @@
   margin: 5px;
   padding: 0;
   background-color: #F5F5F5;
+  font-family: Helvetica;
 }
 h1 {
-  margin-bottom: 15px;
-  font-family: Helvetica;
+  margin-bottom: 5px;
 }
 
 div {
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
   font-size: 20px;
   font: bold;
 }
@@ -36,6 +35,11 @@ div {
   margin: 5px;
   background-color: #FFFAF0;
   border: 1px solid black; 
+}
+
+#reference {
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 #giant_panda {
